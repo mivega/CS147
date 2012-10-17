@@ -96,7 +96,7 @@ HelloWorld4();
 <?php
 
 function HelloWorld6() {
-	$array = array('Hello', 'World');
+	$array = array('Hello', 'World', "!");
 	$add_space = implode(" ", $array);
 	echo $add_space;
 }
